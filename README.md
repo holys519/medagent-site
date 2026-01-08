@@ -1,43 +1,75 @@
-# MedAgent (ChatLLMApp)
+# MedAgent - 公式ウェブサイト
 
-**Modern AI Assistant with Advanced Research Capabilities**
+**学術研究を加速する高度なAIアシスタント**
 
-MedAgent (internally `ChatLLMApp`) is a sophisticated AI assistant application built with React Native and Expo. It features a modern, intuitive chat interface and powerful backend integration for advanced research tasks.
+MedAgent は、React Native と Expo を使用して構築された、モダンなチャットインターフェースを持つ AI アシスタントアプリケーションです。複数の AI モデルを切り替えて使用できる柔軟な設計になっています。
 
-## Key Features
+## 主な機能
 
-### 🤖 Multi-Model AI Support
-Seamlessly switch between top-tier AI models:
-- **OpenAI**: GPT-4o, GPT-4o mini, o1/o3 series
+### 🤖 マルチモデルAI対応
+主要なAIモデルをシームレスに切り替え可能:
+- **OpenAI**: GPT-4o, GPT-4o mini, o1/o3 シリーズ
 - **Anthropic**: Claude 3.7 Sonnet, Haiku
 - **Google**: Gemini 2.0 Flash, 2.5 Pro, 1.5 Pro
 
-### 🔬 Advanced Research Agent System
-A comprehensive system for academic research and analysis:
-- **@paper-scout-auditor**: Full-cycle research audit (Search → Critique → Revise → Audit). Provides quality scoring (A+ to D) and bias detection.
-- **@paper-scout**: Intelligent paper search with PubMed integration and relevance scoring.
-- **@review-creation**: Automated systematic review generation workflow.
+### 🔬 高度な研究エージェントシステム
+学術研究と分析のための包括的なシステム:
+- **@paper-scout-auditor**: 完全な研究監査サイクル (検索 → 批評 → 修正 → 監査)。品質スコアリング (A+ ～ D) とバイアス検出機能を提供。
+- **@paper-scout**: PubMed統合と関連性スコアリングを備えたインテリジェントな論文検索。
+- **@review-creation**: 自動化されたシステマティックレビュー生成ワークフロー。
 
-### 🧠 Knowledge Management
-- **RAG System**: Upload PDF/DOCX for vector search and semantic retrieval.
-- **Knowledge Graph**: Visualize entities and relationships extracted from documents.
-- **Processing Pipeline**: Google Cloud-based pipeline (Document AI, Vertex AI Embeddings).
+### 🧠 知識管理
+- **RAGシステム**: PDF/DOCXをアップロードしてベクトル検索とセマンティック検索を実現。
+- **知識グラフ**: ドキュメントから抽出したエンティティと関係を可視化。
+- **処理パイプライン**: Google Cloudベースのパイプライン (Document AI, Vertex AI Embeddings)。
 
-### 🗺️ Mind Mapping
-- Create and edit mind maps to organize thoughts.
-- Integrated with Firestore for realtime history and sharing.
+### 🗺️ マインドマップ
+- 思考を整理するためのマインドマップを作成・編集。
+- Firestoreによるリアルタイム履歴管理と共有機能を統合。
 
-## Technology Stack
+## 技術スタック
 
-- **Frontend**: React Native, Expo, NativeWind (Tailwind), TypeScript
-- **Backend API**: Python (FastAPI/Flask equivalent for agents), Google Cloud Platform (Vertex AI, Firestore, Cloud Storage)
-- **AI Integration**: LangChain/LangGraph for agent workflows
+- **フロントエンド**: React Native, Expo, NativeWind (Tailwind), TypeScript
+- **バックエンドAPI**: Python (FastAPI/Flask相当、エージェント用), Google Cloud Platform (Vertex AI, Firestore, Cloud Storage)
+- **AI統合**: LangChain/LangGraph によるエージェントワークフロー
 
-## Getting Started
+## はじめに
 
-This repository hosts the official landing page for the MedAgent project.
-access the application code at [ChatLLMApp repository](https://github.com/holys519/ChatLLMApp) (Private/Internal).
+このリポジトリは、MedAgent プロジェクトの公式ランディングページをホストしています。
 
-## Deployment
+## 開発
 
-The official site is deployed at: [URL TO BE DETERMINED]
+```bash
+# 依存関係のインストール
+npm install
+
+# 開発サーバーの起動
+npm run dev
+
+# ビルド
+npm run build
+
+# プレビュー
+npm run preview
+```
+
+## デプロイメント
+
+このサイトは GitHub Pages にデプロイされています。
+
+### GitHub Pages へのデプロイ
+
+```bash
+# ビルドとデプロイ
+npm run deploy
+```
+
+これにより、`dist` ディレクトリが `gh-pages` ブランチにデプロイされます。
+
+### 公式サイト
+
+公式サイト: [https://holys519.github.io/medagent-site/](https://holys519.github.io/medagent-site/)
+
+## ライセンス
+
+このプロジェクトはオープンソースです。
