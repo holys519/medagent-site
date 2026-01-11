@@ -46,7 +46,6 @@ const technologies = [
       { name: 'Document AI', description: 'PDF/DOCXからのテキスト抽出' },
       { name: 'Vector Search', description: 'セマンティック検索エンジン' },
       { name: 'Vertex AI Embeddings', description: '高次元ベクトル埋め込み生成' },
-      { name: '知識グラフ', description: 'エンティティ関係の可視化' },
     ]
   },
   {

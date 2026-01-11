@@ -1,4 +1,4 @@
-import { Bot, Database, GitBranch, Layers, FileText, Network, MessageSquare, Sparkles } from 'lucide-react';
+import { Bot, Layers, FileText, Network, MessageSquare, Sparkles } from 'lucide-react';
 
 const features = [
   {
@@ -16,22 +16,6 @@ const features = [
     color: 'text-indigo-400',
     bg: 'bg-indigo-500/10',
     details: ['PubMed統合検索', '自動品質評価', 'バイアス検出機能']
-  },
-  {
-    name: 'RAG知識管理システム',
-    description: 'PDF/DOCXファイルをアップロードしてベクトル検索可能な知識ベースを構築。セマンティック検索と正確な引用が可能。',
-    icon: Database,
-    color: 'text-emerald-400',
-    bg: 'bg-emerald-500/10',
-    details: ['Vertex AI Embeddings', '類似度フィルタリング', 'メタデータ付き検索']
-  },
-  {
-    name: '知識グラフ可視化',
-    description: 'ドキュメントから抽出したエンティティ間の複雑な関係を可視化。Google Cloud Vertex AIを活用したインタラクティブな探索。',
-    icon: GitBranch,
-    color: 'text-purple-400',
-    bg: 'bg-purple-500/10',
-    details: ['エンティティ抽出', '関係性マッピング', 'インタラクティブ探索']
   },
   {
     name: 'マルチモーダルチャット',
