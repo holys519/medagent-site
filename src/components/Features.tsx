@@ -1,4 +1,4 @@
-import { Bot, Layers, FileText, Network, MessageSquare, Sparkles } from 'lucide-react';
+import { Bot, Layers, FileText, Network, MessageSquare, Sparkles, Mic } from 'lucide-react';
 
 const features = [
   {
@@ -31,7 +31,15 @@ const features = [
     icon: Network,
     color: 'text-pink-400',
     bg: 'bg-pink-500/10',
-    details: ['インタラクティブ編集', 'リアルタイム同期', '共有機能']
+    details: ['インタラクティブ編集', 'リアルタイム同期', '共有機能', '画像添付対応']
+  },
+  {
+    name: '音声入力機能',
+    description: '音声でメッセージを入力。ハンズフリーで試しながら考えを伝えられます。',
+    icon: Mic,
+    color: 'text-rose-400',
+    bg: 'bg-rose-500/10',
+    details: ['リアルタイム音声認識', 'ハンズフリー入力', 'マルチモーダル対応']
   },
   {
     name: '自動レビュー生成',
